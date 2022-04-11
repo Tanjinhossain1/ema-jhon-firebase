@@ -54,7 +54,7 @@ const SignUp = () => {
                                 <label htmlFor="confirm-password">Confirm-Password</label>
                                 <input onBlur={handleConfirmPassword} type="password" name="password" id=""required />
                             </div>
-                            <input className='submit-input' type="submit" value="Submit" />
+                            <input className='submit-input' type="submit" value="Sign Up" />
                         </form>
                         <p>
                             Already have an account?<Link to='/login'>Login</Link>

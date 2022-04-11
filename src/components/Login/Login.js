@@ -42,7 +42,7 @@ const Login = () => {
                             <label htmlFor="password">Password</label>
                             <input onBlur={handlePassword} type="password" name="password" id="" required/>
                         </div>
-                        <input className='submit-input' type="submit" value="Submit" />
+                        <input className='submit-input' type="submit" value="Login" />
                     </form>
                     <p>
                         new to ema-john?<Link to='/signup'>Create New Account</Link>
