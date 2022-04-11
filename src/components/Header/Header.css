@@ -7,7 +7,14 @@
     padding-left: 140px;
     padding-right: 140px;
 }
-
+.header button{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+    border: 0;
+    background-color: transparent;
+}
 .header a{
     color: #FFFFFF;
     text-decoration: none;
@@ -15,5 +22,8 @@
     margin-left: 36px;
 }
 .header a:hover{
+    color: orange;
+}
+.header button:hover{
     color: orange;
 }
